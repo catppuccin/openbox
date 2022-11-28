@@ -19,19 +19,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/gLatte.webp"/>
+<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/gFrappe.webp"/>
+<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/gMacchiato.webp"/>
+<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/gMocha.webp"/>
+<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Mocha.webp"/>
 </details>
 
 ## Prerequisites
