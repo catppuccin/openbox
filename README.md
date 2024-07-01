@@ -6,32 +6,32 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/prateektade/catppuccin-openbox/stargazers"><img src="https://img.shields.io/github/stars/prateektade/catppuccin-openbox?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/prateektade/catppuccin-openbox/issues"><img src="https://img.shields.io/github/issues/prateektade/catppuccin-openbox?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/prateektade/catppuccin-openbox/contributors"><img src="https://img.shields.io/github/contributors/prateektade/catppuccin-openbox?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/openbox/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/openbox?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/openbox/issues"><img src="https://img.shields.io/github/issues/catppuccin/openbox?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/openbox/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/openbox?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Screenshot.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Latte.webp"/>
+<img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Frappe.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-openbox/main/assets/Mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Prerequisites
@@ -41,10 +41,8 @@
 
 ## Usage
 
-1. Clone this repository locally using the command `git clone https://github.com/prateektade/catppuccin-openbox.git`.
-2. Copy the folder corresponding to your favorite theme (named as `Catppuccin-{flavor}`) present inside the `src` folder.
-3. Paste the folder inside `/usr/share/themes/` to install globally or `~/.themes` for a single user.
-4. Apply the theme using `obconf` or `lxappearance`.
+1. Copy your preferred flavor from [`themes/`](./themes/) to either `~/.themes` for a single user installation or `/usr/share/themes/` for a global installation.
+2. Apply the theme using `obconf` or `lxappearance`.
 
 ## 💝 Thanks to
 
