@@ -106,7 +106,7 @@ window.active.button.iconify.toggled.pressed.image.color:     #f9e2af
 window.active.button.iconify.toggled.unpressed.image.color:   #f9e2af
 
 window.active.button.max.hover.image.color:                   #313244
-window.active.button.max.pressed.image.color:                 #a6e3a1  
+window.active.button.max.pressed.image.color:                 #a6e3a1
 window.active.button.max.disabled.image.color:                #585b70
 window.active.button.max.unpressed.image.color:               #a6e3a1
 window.active.button.max.toggled.hover.image.color:           #313244

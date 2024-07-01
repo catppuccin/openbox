@@ -1,0 +1,185 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+   - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}/openbox-3/themerc"
+---
+# Menu
+
+menu.overlap.x:                                                     0
+menu.overlap.y:                                                     0
+menu.border.width:                                                  6
+menu.separator.width:                                               2
+menu.separator.padding.width:                                      10
+menu.separator.padding.height:                                      2
+
+menu.border.color:                                            #{{ base.hex }}
+menu.separator.color:                                         #{{ base.hex }}
+
+menu.title.bg:                                             flat solid
+menu.title.bg.color:                                          #{{ crust.hex }}
+menu.title.text.color:                                        #{{ subtext0.hex }}
+menu.title.text.justify:                                       center
+
+menu.items.bg:                                             flat solid
+menu.items.bg.color:                                          #{{ base.hex }}
+
+menu.items.text.color:                                        #{{ text.hex }}
+
+menu.items.active.bg:                                      flat solid
+menu.items.active.bg.color:                                   #{{ base.hex }}
+menu.items.active.text.color:                                 #{{ text.hex }}
+menu.items.disabled.text.color:                               #{{ overlay1.hex }}
+menu.items.active.disabled.text.color:                        #{{ overlay1.hex }}
+
+# OSD
+
+osd.border.width:                                                   1
+
+osd.bg:                                                    flat solid
+osd.bg.color:                                                 #{{ base.hex }}
+
+osd.border.color:                                             #{{ base.hex }}
+
+osd.label.bg:                                              flat solid
+osd.label.bg.color:                                           #{{ crust.hex }}
+osd.label.text.color:                                         #{{ subtext0.hex }}
+
+osd.hilight.bg:                                            flat solid
+osd.hilight.bg.color:                                         #{{ base.hex }}
+
+osd.unhilight.bg:                                          flat solid
+osd.unhilight.bg.color:                                       #{{ base.hex }}
+
+# Window
+
+border.width:                                                       0
+padding.width:                                                     10
+padding.height:                                                    10
+window.handle.width:                                                0
+window.client.padding.width:                                        0
+window.client.padding.height:                                       0
+
+window.label.text.justify:                                     center
+
+window.active.label.bg:                                    flat solid
+window.active.label.bg.color:                                 #{{ crust.hex }}
+window.active.label.text.color:                               #{{ subtext1.hex }}
+
+window.inactive.label.bg:                                  flat solid
+window.inactive.label.bg.color:                               #{{ crust.hex }}
+window.inactive.label.text.color:                             #{{ subtext1.hex }}
+
+window.active.border.color:                                   #{{ base.hex }}
+window.active.client.color:                                   #{{ base.hex }}
+window.inactive.border.color:                                 #{{ base.hex }}
+window.inactive.client.color:                                 #{{ base.hex }}
+
+window.active.title.bg:                                    flat solid
+window.active.title.bg.color:                                 #{{ crust.hex }}
+window.active.title.separator.color:                          #{{ crust.hex }}
+
+window.inactive.title.bg:                                  flat solid
+window.inactive.title.bg.color:                               #{{ crust.hex }}
+window.inactive.title.separator.color:                        #{{ crust.hex }}
+
+# Buttons
+
+window.active.button.hover.bg:                         parentrelative
+window.active.button.pressed.bg:                       parentrelative
+window.active.button.disabled.bg:                      parentrelative
+window.active.button.unpressed.bg:                     parentrelative
+
+window.inactive.button.hover.bg:                       parentrelative
+window.inactive.button.pressed.bg:                     parentrelative
+window.inactive.button.disabled.bg:                    parentrelative
+window.inactive.button.unpressed.bg:                   parentrelative
+
+window.active.button.toggled.hover.bg:                 parentrelative
+window.active.button.toggled.pressed.bg:               parentrelative
+window.active.button.toggled.unpressed.bg:             parentrelative
+
+window.inactive.button.toggled.hover.bg:               parentrelative
+window.inactive.button.toggled.pressed.bg:             parentrelative
+window.inactive.button.toggled.unpressed.bg:           parentrelative
+
+window.active.button.iconify.hover.image.color:               #{{ surface0.hex }}
+window.active.button.iconify.pressed.image.color:             #{{ yellow.hex }}
+window.active.button.iconify.disabled.image.color:            #{{ surface2.hex }}
+window.active.button.iconify.unpressed.image.color:           #{{ yellow.hex }}
+window.active.button.iconify.toggled.hover.image.color:       #{{ surface0.hex }}
+window.active.button.iconify.toggled.pressed.image.color:     #{{ yellow.hex }}
+window.active.button.iconify.toggled.unpressed.image.color:   #{{ yellow.hex }}
+
+window.active.button.max.hover.image.color:                   #{{ surface0.hex }}
+window.active.button.max.pressed.image.color:                 #{{ green.hex }}
+window.active.button.max.disabled.image.color:                #{{ surface2.hex }}
+window.active.button.max.unpressed.image.color:               #{{ green.hex }}
+window.active.button.max.toggled.hover.image.color:           #{{ surface0.hex }}
+window.active.button.max.toggled.pressed.image.color:         #{{ green.hex }}
+window.active.button.max.toggled.unpressed.image.color:       #{{ green.hex }}
+
+window.active.button.close.hover.image.color:                 #{{ surface0.hex }}
+window.active.button.close.pressed.image.color:               #{{ red.hex }}
+window.active.button.close.disabled.image.color:              #{{ surface2.hex }}
+window.active.button.close.unpressed.image.color:             #{{ red.hex }}
+window.active.button.close.toggled.hover.image.color:         #{{ surface0.hex }}
+window.active.button.close.toggled.pressed.image.color:       #{{ red.hex }}
+window.active.button.close.toggled.unpressed.image.color:     #{{ red.hex }}
+
+window.active.button.shade.hover.image.color:                 #{{ surface0.hex }}
+window.active.button.shade.pressed.image.color:               #{{ overlay0.hex }}
+window.active.button.shade.disabled.image.color:              #{{ surface2.hex }}
+window.active.button.shade.unpressed.image.color:             #{{ overlay0.hex }}
+window.active.button.shade.toggled.hover.image.color:         #{{ surface0.hex }}
+window.active.button.shade.toggled.pressed.image.color:       #{{ overlay0.hex }}
+window.active.button.shade.toggled.unpressed.image.color:     #{{ overlay0.hex }}
+
+window.active.button.desk.hover.image.color:                  #{{ surface0.hex }}
+window.active.button.desk.pressed.image.color:                #{{ overlay2.hex }}
+window.active.button.desk.disabled.image.color:               #{{ surface2.hex }}
+window.active.button.desk.unpressed.image.color:              #{{ overlay2.hex }}
+window.active.button.desk.toggled.hover.image.color:          #{{ surface0.hex }}
+window.active.button.desk.toggled.pressed.image.color:        #{{ overlay2.hex }}
+window.active.button.desk.toggled.unpressed.image.color:      #{{ overlay2.hex }}
+
+window.inactive.button.iconify.hover.image.color:             #{{ surface0.hex }}
+window.inactive.button.iconify.pressed.image.color:           #{{ overlay1.hex }}
+window.inactive.button.iconify.disabled.image.color:          #{{ surface2.hex }}
+window.inactive.button.iconify.unpressed.image.color:         #{{ overlay1.hex }}
+window.inactive.button.iconify.toggled.hover.image.color:     #{{ surface0.hex }}
+window.inactive.button.iconify.toggled.pressed.image.color:   #{{ overlay1.hex }}
+window.inactive.button.iconify.toggled.unpressed.image.color: #{{ overlay1.hex }}
+
+window.inactive.button.max.hover.image.color:                 #{{ surface0.hex }}
+window.inactive.button.max.pressed.image.color:               #{{ overlay1.hex }}
+window.inactive.button.max.disabled.image.color:              #{{ surface2.hex }}
+window.inactive.button.max.unpressed.image.color:             #{{ overlay1.hex }}
+window.inactive.button.max.toggled.hover.image.color:         #{{ surface0.hex }}
+window.inactive.button.max.toggled.pressed.image.color:       #{{ overlay1.hex }}
+window.inactive.button.max.toggled.unpressed.image.color:     #{{ overlay1.hex }}
+
+window.inactive.button.close.hover.image.color:               #{{ surface0.hex }}
+window.inactive.button.close.pressed.image.color:             #{{ overlay1.hex }}
+window.inactive.button.close.disabled.image.color:            #{{ surface2.hex }}
+window.inactive.button.close.unpressed.image.color:           #{{ overlay1.hex }}
+window.inactive.button.close.toggled.hover.image.color:       #{{ surface0.hex }}
+window.inactive.button.close.toggled.pressed.image.color:     #{{ overlay1.hex }}
+window.inactive.button.close.toggled.unpressed.image.color:   #{{ overlay1.hex }}
+
+window.inactive.button.shade.hover.image.color:               #{{ surface0.hex }}
+window.inactive.button.shade.pressed.image.color:             #{{ overlay1.hex }}
+window.inactive.button.shade.disabled.image.color:            #{{ surface2.hex }}
+window.inactive.button.shade.unpressed.image.color:           #{{ overlay1.hex }}
+window.inactive.button.shade.toggled.hover.image.color:       #{{ surface0.hex }}
+window.inactive.button.shade.toggled.pressed.image.color:     #{{ overlay1.hex }}
+window.inactive.button.shade.toggled.unpressed.image.color:   #{{ overlay1.hex }}
+
+window.inactive.button.desk.hover.image.color:                #{{ surface0.hex }}
+window.inactive.button.desk.pressed.image.color:              #{{ overlay1.hex }}
+window.inactive.button.desk.disabled.image.color:             #{{ surface2.hex }}
+window.inactive.button.desk.unpressed.image.color:            #{{ overlay1.hex }}
+window.inactive.button.desk.toggled.hover.image.color:        #{{ surface0.hex }}
+window.inactive.button.desk.toggled.pressed.image.color:      #{{ overlay1.hex }}
+window.inactive.button.desk.toggled.unpressed.image.color:    #{{ overlay1.hex }}

@@ -106,7 +106,7 @@ window.active.button.iconify.toggled.pressed.image.color:     #eed49f
 window.active.button.iconify.toggled.unpressed.image.color:   #eed49f
 
 window.active.button.max.hover.image.color:                   #363a4f
-window.active.button.max.pressed.image.color:                 #a6da95  
+window.active.button.max.pressed.image.color:                 #a6da95
 window.active.button.max.disabled.image.color:                #5b6078
 window.active.button.max.unpressed.image.color:               #a6da95
 window.active.button.max.toggled.hover.image.color:           #363a4f
@@ -114,12 +114,12 @@ window.active.button.max.toggled.pressed.image.color:         #a6da95
 window.active.button.max.toggled.unpressed.image.color:       #a6da95
 
 window.active.button.close.hover.image.color:                 #363a4f
-window.active.button.close.pressed.image.color:               #f5a97f
+window.active.button.close.pressed.image.color:               #ed8796
 window.active.button.close.disabled.image.color:              #5b6078
-window.active.button.close.unpressed.image.color:             #f5a97f
+window.active.button.close.unpressed.image.color:             #ed8796
 window.active.button.close.toggled.hover.image.color:         #363a4f
-window.active.button.close.toggled.pressed.image.color:       #f5a97f
-window.active.button.close.toggled.unpressed.image.color:     #f5a97f
+window.active.button.close.toggled.pressed.image.color:       #ed8796
+window.active.button.close.toggled.unpressed.image.color:     #ed8796
 
 window.active.button.shade.hover.image.color:                 #363a4f
 window.active.button.shade.pressed.image.color:               #6e738d
